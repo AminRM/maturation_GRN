@@ -1,2 +1,2 @@
 # maturation_networks
-the PCIT_based_GRN_analyses.awk script describe using PCIT to construct gene networks. 
+the PCIT_based_GRN_analyses.awk script describe steps to construct gene networks. genes were used as nodes and significant connections (edges) between them were identified using the Partial Correlation and Information Theory (PCIT) algorithm (Reverter and Chan, 2008), considering all samples. PCIT determinates the significance of the correlation between two nodes after accounting for all the other nodes in the network
