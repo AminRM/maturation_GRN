@@ -2,7 +2,7 @@
 
 Mohamed et al (2020) Integrated transcriptome, DNA methylome and chromatin state accessibility landscapes reveal regulators of Atlantic salmon maturation
 
-This ripository contains awk scripts to perform master regulator analysis and gene co-expression analysis based on PCIT. Genes selected for the network analysis originated from different omics analysis (transcriptome, DNA methylome and Chromatin accessibility). 
+This repository y contains awk scripts to perform master regulator analysis and gene co-expression analysis based on PCIT. Genes selected for the network analysis originated from different omics analysis (transcriptome, DNA methylome and Chromatin accessibility). 
 the PCIT_based_GRN_analyses.awk script describe steps to construct gene networks:
 genes were used as nodes and significant connections (edges) between them were identified using the Partial Correlation and Information Theory (PCIT) algorithm (Reverter and Chan, 2008), considering all 48 samples. PCIT determinates the significance of the correlation between two nodes after accounting for all the other nodes in the network. 
 
