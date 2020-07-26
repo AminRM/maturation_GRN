@@ -1,7 +1,7 @@
 #######################################################################################
 # initial GRN 
 #######################################################################################
-prepare the normalised expression matrix containing all samples as the input for PCIT 
+#prepare the normalised expression matrix containing all samples as the input for PCIT 
 awk 'NR>1 {print $0}' genes_PCIT_matrix.txt | sed "s/\t/ /g" > PCIT_in.txt
 #run PCIT
 echo PCIT_in.txt | /F90codes/PCIT.cygwin
