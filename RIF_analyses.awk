@@ -1,5 +1,5 @@
 # compile the RIF source code
-# Find yourself a fortran compiler for your mac
+# Find yourself a fortran compiler
 
 gfortran RIF.f90 -o RIF.exe
 
